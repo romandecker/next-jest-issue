@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "build-server",
+    "target": "es2017",
+    "isolatedModules": false,
+    "noEmit": false,
+  },
+  "include": ["next-env.d.ts", "server/**/*.ts"],
+  "exclude": ["node_modules"]
+}
