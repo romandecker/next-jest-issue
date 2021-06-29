@@ -10,7 +10,8 @@
     "build:next": "next build",
     "build:server": "tsc --project tsconfig.server.json",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1",
